@@ -8,6 +8,6 @@ package tp2.ornitorrinco;
  *
  * @author Lucas
  */
-public class orniAzul {
+public class OrniAzul {
     
 }
