@@ -1,7 +1,7 @@
 package tp2.ornitorrinco;
 
-/** GRUPO 6 */
+/** GRUPO 6 **/
 
-public class OrniVerde {
+public class orniVerde {
     
 }

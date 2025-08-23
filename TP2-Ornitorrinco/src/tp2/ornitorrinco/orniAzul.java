@@ -4,10 +4,7 @@
  */
 package tp2.ornitorrinco;
 
-/**
- *
- * @author Lucas
- */
-public class OrniAzul {
+/** GRUPO 6 **/
+public class orniAzul {
     
 }
