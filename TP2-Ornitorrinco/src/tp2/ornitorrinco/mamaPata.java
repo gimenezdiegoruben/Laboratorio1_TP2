@@ -3,9 +3,9 @@ import java.util.Scanner;
 /** GRUPO 6 */
 
 public interface mamaPata {
-    double CENTIMETROS_PICO= 6.8; //CM
-    double CENTIMETROS_PATAS= 7.5; //CM
+    double CENTIMETROS_PICO= 6.8; 
+    double CENTIMETROS_PATAS= 7.5; 
     
-    void tocarOrgano(Scanner sc); //Implementado por orniVerde
+    void tocarOrgano(Scanner sc); 
     
 }
