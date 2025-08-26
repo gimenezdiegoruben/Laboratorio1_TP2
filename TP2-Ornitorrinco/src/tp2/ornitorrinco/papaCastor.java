@@ -30,7 +30,7 @@ public class PapaCastor {
     }
 
     public void nadar() {
-        System.out.println("El papa castor nada a una velocidad de " + velocidad + " km/h con su cola de " + longitudCola + " cm.");
+        System.out.println("El papa castor nada a una velocidad de " + velocidad + " km/h con su cola de " + longitudCola);
     }
 
     public void tocarGuitarra() {

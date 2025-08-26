@@ -33,7 +33,7 @@ public class orniAzul extends PapaCastor implements mamaPata {
     @Override
     public void nadar() {
         double v = velocidadEfectivaKmH();
-        System.out.printf("OrniAzul nadando con propulsion: ", v, " km/h");
+        System.out.println("OrniAzul nadando con propulsion: " + v + " km/h");
     }
 
     public static Comparator<orniAzul> porPropulsionAsc = new Comparator<orniAzul>() {
