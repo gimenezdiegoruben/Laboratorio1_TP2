@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /** GRUPO 6 **/
 /* Hecho Por Tomas Migliozzi */
-public class orniVerde extends papaCastor implements mamaPata {
+public class orniVerde extends PapaCastor implements mamaPata {
 
     private String nombre;
 

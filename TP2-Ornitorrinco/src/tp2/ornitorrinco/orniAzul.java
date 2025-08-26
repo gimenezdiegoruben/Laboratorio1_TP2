@@ -8,7 +8,7 @@ import java.util.Comparator;
 import java.util.Scanner;
 
 /** GRUPO 6 **/
-public class orniAzul extends papaCastor implements mamaPata {
+public class orniAzul extends PapaCastor implements mamaPata {
 
     private final String color = "Azul";
     private int propulsionKmS;

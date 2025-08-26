@@ -1,8 +1,16 @@
 # Compiled class file
 *.class
 
-# Log file
+**/build/
+**/dist/
+target/
+
+# Log & temp files
 *.log
+*.lock
+hs_err_pid*
+replay_pid*
+.mtj.tmp/
 
 # BlueJ files
 *.ctxt
@@ -26,3 +34,21 @@ replay_pid*
 /TP2-Ornitorrinco/nbproject/private/
 /Prueba-TP2/nbproject/private/
 /TP2-Ornitorrinco/build/
+
+# Archivos de configuración de IDE (NetBeans, IntelliJ, Eclipse)
+nbproject/private/
+**/nbproject/private/
+nbproject/project.properties
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar directorios de dependencia
+.gradle/
+.mvn/
