@@ -7,16 +7,14 @@ package tp2.ornitorrinco;
 import java.util.Comparator;
 import java.util.Scanner;
 
-/**
- * GRUPO 6 *
- */
+/** GRUPO 6 **/
 public class orniAzul extends papaCastor implements mamaPata {
 
     private final String color = "Azul";
     private int propulsionKmS;
 
-    public orniAzul(int propulsionKmS, String longitudCola, double velocidad) {
-        super(longitudCola, velocidad);
+    public orniAzul(int propulsionKmS, double velocidad) {
+        super(velocidad);
         this.propulsionKmS = propulsionKmS;
     }
 
@@ -35,7 +33,7 @@ public class orniAzul extends papaCastor implements mamaPata {
     @Override
     public void nadar() {
         double v = velocidadEfectivaKmH();
-        System.out.printf("OrniAzul nadando con propulsión: ", v, " km/h");
+        System.out.printf("OrniAzul nadando con propulsion: ", v, " km/h");
     }
 
     public static Comparator<orniAzul> porPropulsionAsc = new Comparator<orniAzul>() {
@@ -54,8 +52,9 @@ public class orniAzul extends papaCastor implements mamaPata {
 
     @Override
     public String toString() {
-        return "OrniAzul"
-                + "---------------"
+        return "---------------"
+                + "\nOrniAzul"
+                + "\n---------------"
                 + "\nColor: " + color
                 + "\nPropulsion Km/s: " + propulsionKmS;
     }

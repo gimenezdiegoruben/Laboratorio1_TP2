@@ -5,13 +5,12 @@ import java.util.Random;
 /** GRUPO 6 **/
 public class papaCastor {
     
- private String longitudCola = "Ancha y plana";
+    private String longitudCola = "Ancha y plana";
     private double Velocidad;
 
-    public papaCastor(String longitudCola, double velocidad) {
-    this.longitudCola = longitudCola;
-    this.Velocidad = velocidad;
-}
+    public papaCastor(double velocidad) {
+        this.Velocidad = velocidad;
+    }
 
     public String getLongitudCola() {
         return longitudCola;
@@ -30,7 +29,7 @@ public class papaCastor {
     }
 
     public void nadar() {
-        System.out.println("El papá castor nada a una velocidad de " + Velocidad + " km");
+        System.out.println("El papa castor nada a una velocidad de " + Velocidad + " km");
     }
 
     public void tocarGuitarra() {

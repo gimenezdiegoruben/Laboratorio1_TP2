@@ -1,6 +1,6 @@
 package tp2.ornitorrinco;
 import java.util.Scanner;
-/** GRUPO 6 */
+/** GRUPO 6 **/
 
 public interface mamaPata {
     double CENTIMETROS_PICO= 6.8; 
